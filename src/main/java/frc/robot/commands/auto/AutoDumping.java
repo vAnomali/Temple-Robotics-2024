@@ -5,6 +5,7 @@ import frc.robot.subsystems.Dumping;
 import frc.robot.subsystems.GearServo;
 import frc.robot.subsystems.Digging.DiggingLinearActuator;
 import frc.robot.subsystems.DumpServo;
+// import frc.robot.commands.dumping;
 
 
 public class AutoDumping extends CommandBase
@@ -14,6 +15,7 @@ public class AutoDumping extends CommandBase
     GearServo m_GearServo;
     DiggingLinearActuator m_LinearActuator;
     private long startTime;
+
 
     public AutoDumping(Dumping dumping, DumpServo dumpServo, GearServo gearServo, DiggingLinearActuator diggingLinearActuator)
     {
@@ -37,6 +39,7 @@ public class AutoDumping extends CommandBase
     @Override
     public void execute()
     {
+        // OpenRopeServo openRopeCommand = new OpenRopeServo(m_DumpServo);
         if (startTime == 0) {
             startTime = System.currentTimeMillis();
         }
@@ -49,7 +52,7 @@ public class AutoDumping extends CommandBase
                 Thread.currentThread().interrupt();
             }
             m_DumpServo.servoClockwise();
-            m_GearServo.servoClockwise();
+            // m_GearServo.servoClockwise();
             m_Dumping.commandUp();
         }
     }
