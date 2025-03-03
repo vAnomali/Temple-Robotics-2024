@@ -1,6 +1,6 @@
 # Temple Robotics 2024 - NASA Lunabotics Competition Robot
 
-This repository contains the software and control systems for Temple Robotics' 2024 competitive robot, DAVID, designed for NASA's Lunabotics competition. The robot represents our team's effort in advancing autonomous excavation and robotic mobility in lunar-like environments. This project embodies months of hard work, innovation, and collaboration from our dedicated team members.
+This repository contains the software and control systems for Temple Robotics' 2024 competitive robot, **DAVID**, designed for NASA's Lunabotics competition. The robot represents our team's effort in advancing autonomous excavation and robotic mobility in lunar-like environments. This project embodies months of hard work, innovation, and collaboration from our dedicated team members.
 
 ## Contributors
 
@@ -16,7 +16,7 @@ Your contributions have been invaluable to the development of this robot, and we
 
 ## In Memory of David Fiel
 
-This robot, DAVID, is dedicated to the memory of **David Fiel**, a former president of Temple Robotics and my personal mentor. David's passion, leadership, and guidance shaped not only this project but also the growth of Temple Robotics as a whole. His impact on our team and the field of robotics will never be forgotten.
+This robot, **DAVID**, is dedicated to the memory of **David Fiel**, a former president of Temple Robotics and my personal mentor. David's passion, leadership, and guidance shaped not only this project but also the growth of Temple Robotics as a whole. His impact on myself, our team and the field of robotics will never be forgotten.
 
 ## About NASA's Lunabotics Competition
 
