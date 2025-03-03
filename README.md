@@ -7,6 +7,7 @@ This repository contains the software and control systems for Temple Robotics' 2
 A heartfelt thank you to the programmers who played a crucial role in making this project possible:
 
 - **David Fiel**
+- **Jared Levin**
 - **Malin Kussi**
 - **Jaden Howard**
 - **Brian Ervin**
